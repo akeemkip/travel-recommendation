@@ -1,55 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="styles.css">
-    <style>
-        nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-}
-nav a {
-    text-decoration: none;
-    font-size: 18px;
-}
-    </style>
     <title>Travel Recommendation</title>
+
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+
+        /* Navigation Bar Styles */
+        nav {
+            background-color: #34495e;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            padding: 8px 16px;
+        }
+
+        nav a:hover {
+            background-color: #2c3e50;
+            border-radius: 4px;
+        }
+
+        /* Content Styles */
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #1abc9c;
+            color: white;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1000px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #1abc9c;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #34495e;
+            color: white;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
 </head>
+
 <body>
+
+    <!-- Navigation -->
     <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-    </ul>
-</nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
     <header>
         <h1>Welcome to Your Travel Destination Guide</h1>
+        <p>Discover personalized recommendations for your next ideal destination!</p>
     </header>
-    <p>Discover your next ideal travel destination based on your preferences!</p>
-    <p>Welcome to our travel recommendation site. Here, you'll find personalized suggestions for beaches, temples, and other attractions across the globe. Let’s plan your next trip!</p>
-        <section>
-            <h2>Beach Recommendations</h2>
-            <h3>Bora Bora, French Polynesia</h3>
-            <p>Known for its stunning turquoise waters, Bora Bora is a top destination for beach lovers.</p>
-            <img src="https://www.tahititourisme.com/islands/bora-bora/the-beaches-of-bora-bora/" alt="Bora Bora Beach 1">
-            <img src="https://www.purevacations.com/bora-bora-and-tahiti/" alt="Bora Bora Beach 2">
-        </section>
-        <section>
-            <h2>Temple Recommendations</h2>
-            <h3>Angkor Wat, Cambodia</h3>
-            <p>Angkor Wat is one of the largest religious monuments in the world, a must-visit for history enthusiasts.</p>
-            <img src="https://www.britannica.com/topic/Borobudur" alt="Angkor Wat Temple 1">
-            <img src="https://whc.unesco.org/en/list/592/" alt="Angkor Wat Temple 2">
-        </section>
-        <section>
+
+    <!-- Beach Recommendations Section -->
+    <section>
+        <h2>Beach Recommendations</h2>
+        <h3>Bora Bora, French Polynesia</h3>
+        <p>Known for its stunning turquoise waters, Bora Bora is a top destination for beach lovers.</p>
+        <img src="https://www.tahititourisme.com/islands/bora-bora/the-beaches-of-bora-bora/" alt="Bora Bora Beach 1">
+        <img src="https://www.purevacations.com/bora-bora-and-tahiti/" alt="Bora Bora Beach 2">
+    </section>
+
+    <!-- Temple Recommendations Section -->
+    <section>
+        <h2>Temple Recommendations</h2>
+        <h3>Angkor Wat, Cambodia</h3>
+        <p>Angkor Wat is one of the largest religious monuments in the world, a must-visit for history enthusiasts.</p>
+        <img src="https://www.britannica.com/topic/Borobudur" alt="Angkor Wat Temple 1">
+        <img src="https://whc.unesco.org/en/list/592/" alt="Angkor Wat Temple 2">
+    </section>
+
+    <!-- Discover by Country Section -->
+    <section>
         <h2>Discover Destinations by Country</h2>
         <h3>Japan</h3>
-            <p>From the bustling streets of Tokyo to the serene temples of Kyoto, Japan offers a unique blend of modern and traditional experiences.</p>
-            <img src="https://www.traveloka.com/en-au/explore/activities/shrines-and-temples-in-tokyo-ta/349071" alt="Tokyo">
-            <img src="https://www.tripadvisor.com/Articles-lpJoTEAFP6Ok-Kyoto_temples_to_visit.html" alt="Kyoto">
-        </section>
+        <p>From the bustling streets of Tokyo to the serene temples of Kyoto, Japan offers a unique blend of modern and traditional experiences.</p>
+        <img src="https://www.traveloka.com/en-au/explore/activities/shrines-and-temples-in-tokyo-ta/349071" alt="Tokyo">
+        <img src="https://www.tripadvisor.com/Articles-lpJoTEAFP6Ok-Kyoto_temples_to_visit.html" alt="Kyoto">
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Travel Destination Guide. All rights reserved.</p>
+    </footer>
+
 </body>
+
 </html>
